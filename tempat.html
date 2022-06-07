@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempat</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</head>
+<body>
+    <div class="container mx-auto p-3 w-4/5 mt-3">
+        <!-- navbar -->
+        <nav class="md:flex md:justify-center md:items-center p-2 shadow-lg rounded-md">
+            <div class="flex justify-between items-center">
+                <span class="text-2xl font-[Poppins] cursor-pointer ml-2">Make You're Move</span>
+                <ion-icon name="menu" class="bx bx-menu bx-sm cursor-pointer md:hidden block mx-2"  onclick="Menu(this)"></ion-icon>
+            </div>
+            <ul class="md:flex md:items-center z-[1] md:z-auto md:static absolute md:w-auto bg-white w-full md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[400px] transition-all ease-in duration-500">
+                
+                <li class="navbar-list mx-4 my-6">
+                    <a href="index.html" class="px-5 py-2 bg-cyan-300  rounded-md transition ease-in-out delay-150  hover:bg-teal-500 duration-300 text-white capitalize">home</a>
+                </li>
+                <li class="navbar-list mx-4 my-6">
+                    <a href="tempat.html" class="capitalize px-5 py-2  bg-cyan-300 rounded-md transition ease-in-out delay-150  hover:bg-teal-500 duration-300 text-white">tempat</a>
+                </li>
+                <li class="navbar-list mx-4 my-6">
+                    <a href="foto.html" class="px-5 py-2 capitalize  bg-cyan-300 rounded-md transition ease-in-out delay-150  hover:bg-teal-500 duration-300 text-white">foto</a>
+                </li>
+                <li class="navbar-list mx-4 my-6">
+                    <a href="info.html" class="px-5 py-2 capitalize  bg-cyan-300 rounded-md transition ease-in-out delay-150  hover:bg-teal-500 duration-300 text-white">tentang</a>
+                </li>
+            </ul>
+            </nav>
+
+        <div class="container w-full h-32">
+            <h1 class="text-2xl text-center text-cyan-500 font-extrabold tracking-wider flex justify-center items-center h-32">PERGI KEMANA HARI INI ?</h1>
+        </div>
+
+        <div class="w-full h-48 overflow-hidden my-10 rounded-md bg-local bg-no-repeat bg-center p-28 object-center" style="background-image: url('http://source.unsplash.com/1200x600?adventure');">
+        </div>
+        <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
+            <div class="h-60 overflow-hidden bg-center bg-cover rounded-md" style="background-image: url('http://source.unsplash.com/300x250?forest');"></div>
+            <div class="h-60 overflow-hidden bg-center bg-cover rounded-md" style="background-image: url('http://source.unsplash.com/300x250?sea');"></div>
+            <div class="h-60 overflow-hidden bg-center bg-cover rounded-md" style="background-image: url('http://source.unsplash.com/300x250?mountain');"></div>
+            <div class="h-60 overflow-hidden bg-center bg-cover rounded-md" style="background-image: url('http://source.unsplash.com/300x250?beach');"></div>
+            <div class="h-60 overflow-hidden bg-center bg-cover rounded-md" style="background-image: url('http://source.unsplash.com/300x250?earth');"></div>
+            <div class="h-60 overflow-hidden bg-center bg-cover rounded-md" style="background-image: url('http://source.unsplash.com/300x250?space');"></div>
+            <div class="h-60 overflow-hidden bg-center bg-cover rounded-md" style="background-image: url('http://source.unsplash.com/300x250?planet');"></div>
+            <div class="h-60 overflow-hidden bg-center bg-cover rounded-md" style="background-image: url('http://source.unsplash.com/300x250?sky');"></div>
+        </div>
+
+</div>
+<script src="menu.js">
+</script>
+</body>
+</html>
